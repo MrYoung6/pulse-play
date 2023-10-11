@@ -1,0 +1,42 @@
+body, html, #root {
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  padding: 0.65rem 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  color:aliceblue;
+  background-color: rgb(0, 0, 0);
+}
+
+h1 .highlight {
+  color: rgb(138, 211, 2);
+}
+
+.App {
+  height: 100%;
+  padding: 0 1.5rem;
+  background-image: url(./pexels-josh-sorenson-154147.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.App-playlist {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media only screen and (max-width: 1020px) {
+  .App-playlist {
+    align-items: center;
+    flex-direction: column;
+  }
+}
